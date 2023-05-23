@@ -1,0 +1,41 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(127, 141, 170);
+}
+
+.logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(83, 103, 141);
+}
+
+.nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px 6px;
+}
+
+.menu{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu>li>a{
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(83, 103, 141);
+}
+
+.nav-link:hover{
+    background-color: #3a60a1;
+    cursor: pointer;
+    color: white;
+}

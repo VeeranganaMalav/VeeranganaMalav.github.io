@@ -1,0 +1,54 @@
+#contact{
+    padding: 0px 100px;
+}
+
+#contact>h1{
+    color: #3c547d;
+    font-size: 45px;
+}
+
+#contact>p{
+    color: #7990b9;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+.contact-links{
+    margin-left: 40px;
+}
+
+.contact-icons{
+    display: flex;
+    width: 30%;
+    padding: 10px 0px;
+}
+
+.contact-icons>i{
+    font-size: 40px;
+    padding: 0px 35px;
+    color: #3a60a1;
+}
+
+.contact-icons>p{
+    color: #7990b9;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#resume{
+    padding: 40px 80px;
+    text-align: left;
+}
+
+.resume-btn{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #bfd1ec;
+    padding: 10px 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}

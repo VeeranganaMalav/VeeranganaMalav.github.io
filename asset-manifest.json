@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.257a416a.css",
-    "main.js": "/static/js/main.3f5f764e.js",
+    "main.css": "/static/css/main.d3994abf.css",
+    "main.js": "/static/js/main.bf929d66.js",
     "static/js/787.78f71f6a.chunk.js": "/static/js/787.78f71f6a.chunk.js",
+    "static/media/fashion_flare.png": "/static/media/fashion_flare.5a9e7f73130217a44eed.png",
+    "static/media/w_mart.png": "/static/media/w_mart.8028f63e731968bea206.png",
     "static/media/background_image.jpg": "/static/media/background_image.852f8a34faabc1f27927.jpg",
+    "static/media/brainsania.png": "/static/media/brainsania.1ce6e2befbad703e9483.png",
     "static/media/home_image2.jpg": "/static/media/home_image2.823e5543559d41f83be9.jpg",
+    "static/media/notes_app.png": "/static/media/notes_app.787a5174f1a4e1bdc073.png",
     "static/media/passport_photo.jpg": "/static/media/passport_photo.593e80d9337f4e38e613.jpg",
     "index.html": "/index.html",
-    "main.257a416a.css.map": "/static/css/main.257a416a.css.map",
-    "main.3f5f764e.js.map": "/static/js/main.3f5f764e.js.map",
+    "main.d3994abf.css.map": "/static/css/main.d3994abf.css.map",
+    "main.bf929d66.js.map": "/static/js/main.bf929d66.js.map",
     "787.78f71f6a.chunk.js.map": "/static/js/787.78f71f6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.257a416a.css",
-    "static/js/main.3f5f764e.js"
+    "static/css/main.d3994abf.css",
+    "static/js/main.bf929d66.js"
   ]
 }

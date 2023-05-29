@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0e54f789.css",
-    "main.js": "/static/js/main.c210d05f.js",
+    "main.js": "/static/js/main.4dea4dee.js",
     "static/js/787.78f71f6a.chunk.js": "/static/js/787.78f71f6a.chunk.js",
     "static/media/fashion_flare.png": "/static/media/fashion_flare.5a9e7f73130217a44eed.png",
     "static/media/w_mart.png": "/static/media/w_mart.8028f63e731968bea206.png",
@@ -12,11 +12,11 @@
     "static/media/passport_photo.jpg": "/static/media/passport_photo.593e80d9337f4e38e613.jpg",
     "index.html": "/index.html",
     "main.0e54f789.css.map": "/static/css/main.0e54f789.css.map",
-    "main.c210d05f.js.map": "/static/js/main.c210d05f.js.map",
+    "main.4dea4dee.js.map": "/static/js/main.4dea4dee.js.map",
     "787.78f71f6a.chunk.js.map": "/static/js/787.78f71f6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e54f789.css",
-    "static/js/main.c210d05f.js"
+    "static/js/main.4dea4dee.js"
   ]
 }

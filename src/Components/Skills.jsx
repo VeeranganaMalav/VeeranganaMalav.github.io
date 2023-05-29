@@ -53,7 +53,7 @@ const Skills = () => {
         </div>
         <div className="skills-card">
           <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/181_Java-512.png" alt="java" className="skills-card-img" />
-          <p className="skills-card-name">Java</p>
+          <p className="skills-card-name">Core Java</p>
         </div>
       </div>
       <div className="skills-part2">

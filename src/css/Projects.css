@@ -1,0 +1,66 @@
+#projects{
+
+}
+
+#projects>h1{
+    color: #3c547d;
+    padding: 40px 0px;
+    font-size: 50px;
+}
+
+.tech-stack-text{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#projects p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.project-grid{
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    row-gap: 40px;
+    margin: auto;
+}
+
+.project-card{
+    position: relative;
+    width: 90%;
+    height: 600px;
+    padding: 30px 30px;
+    background-color: #96b2dd;
+    border-radius: 25px;
+}
+
+.project-card>img{
+    width: 100%;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.project-card button{
+    position: absolute;
+    bottom: 30px;
+    padding: 8px 15px;
+    background-color: #3c547d;
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.github-repo-btn{
+    left: 150px;
+}
+
+.deployed-site-btn{
+    right: 150px;
+}

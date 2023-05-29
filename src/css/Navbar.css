@@ -39,3 +39,17 @@
     cursor: pointer;
     color: white;
 }
+
+#resume-button-1{
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(83, 103, 141);
+}
+
+#resume-button-1:hover{
+    background-color: #3a60a1;
+    cursor: pointer;
+    color: white;
+}

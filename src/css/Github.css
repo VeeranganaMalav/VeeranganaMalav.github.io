@@ -1,14 +1,14 @@
 .github-profile>h1{
     color: #3c547d;
     font-size: 50px;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .github-charts{
     padding: 70px 0px;
 }
 
-.react-activity-calendar{
+.react-activity-calendar>img{
     width: 80%;
     padding: 50px 0px;
 }

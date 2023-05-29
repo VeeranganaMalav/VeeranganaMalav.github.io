@@ -24,7 +24,9 @@ const Navbar = () => {
                     <a href="#contact" className="nav-link contact">Contact</a>
                 </li>
                 <li>
-                    <a href="#resume" className="nav-link resume">Resume</a>
+                    <a href="https://drive.google.com/uc?id=1JzWIbxmlHDpX1GjwgXOFHbiIhixuemQk&export=download" target="_blank" rel="noreferrer" className="nav-link resume" id="resume-link-1" download>
+                        <button id="resume-button-1">Resume</button>
+                    </a>
                 </li>
             </ul>
         </div>

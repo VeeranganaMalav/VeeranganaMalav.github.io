@@ -24,11 +24,11 @@ const Contact = () => {
           <p>+91 8209714413</p>
         </a>
       </div>
-      <div id="resume">
+      {/* <div id="resume">
         <a href="https://drive.google.com/uc?id=1pXXENn_m-X9xgEXNGgnFWM7DI7zPTi2N&export=download" id="resume-link-1" target="_blank" rel="noreferrer">
           <button className="resume-btn" id="resume-button-1">Resume</button>
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }

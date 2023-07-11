@@ -2,6 +2,7 @@ import React from 'react'
 import About from './About'
 import "../css/Home.css"
 import home_image2 from "../images/home_image2.jpg"
+import girl_illustration from "../images/3d-girl.png"
 import background_image from "../images/background_image.jpg"
 
 const Home = () => {
@@ -10,13 +11,14 @@ const Home = () => {
         <div className="home-intro">
             {/* <img src={background_image} alt="img"/> */}
             <div className="overlay-text">
-                {/* <p>Turning innovative ideas into user-friendly digital experiences</p> */}
                 <p>Crafting Seamless User Experiences, Inside and Out</p>
+            </div>
+                {/* <p>Turning innovative ideas into user-friendly digital experiences</p> */}
                 {/* <p>Turning innovative ideas </p>
                 <p>into user-friendly </p>
                 <p>digital experiences </p> */}
-            </div>
-            <img src={home_image2} alt="home_image1" />
+            {/* <img src={home_image2} alt="home_image1" /> */}
+            <img src={girl_illustration} alt="home_image1" />
         </div>
         <About />
     </div>

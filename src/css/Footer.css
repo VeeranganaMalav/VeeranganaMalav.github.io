@@ -1,0 +1,11 @@
+#footer{
+    background-color: #3c547d;
+    padding: 20px 0px;
+    margin-top: 30px;
+}
+
+.footer-text{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 500;
+}

@@ -1,4 +1,6 @@
-#projects{
+/* ------------------------- FIRST IMPLEMENTATION ------------------------------ */
+
+/* #projects{
 
 }
 
@@ -35,6 +37,7 @@
     padding: 30px 30px;
     background-color: #96b2dd;
     border-radius: 25px;
+    border: 2px solid rgb(149, 149, 181);
 }
 
 .project-card>img{
@@ -63,4 +66,107 @@ h2{
 
 .deployed-site-btn{
     right: 150px;
+} */
+
+
+
+
+
+
+
+
+
+
+/* -------------------------- SECOND IMPLEMENTATION --------------------------------- */
+
+#projects>h1{
+    color: #3c547d;
+    padding: 40px 0px;
+    font-size: 50px;
+}
+
+.project-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.project-card{
+    width: 85%;
+    margin: auto;
+    padding: 30px 30px;
+    /* background-color: #abc3e8; */
+    background-color: rgb(138, 157, 193);
+    border-radius: 10px;
+    border: 5px solid rgb(186, 186, 205);
+    /* border: 2px solid rgb(149, 149, 181); */
+}
+
+.project-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.project-img{
+    width: 55%;
+}
+
+.project-img>img{
+    width: 100%;
+}
+
+.project-features{
+    width: 40%;
+    position: relative;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+
+.project-title{
+    font-size: 28px;
+}
+
+.project-description{
+    font-size: 20px;
+}
+
+.project-live-links{
+    /* border: 1px solid orange; */
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+}
+
+.project-live-links button{
+    font-size: 18px;
+    border: 2px solid rgb(186, 186, 205);
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+
+.project-live-links button:hover{
+    background-color: whitesmoke;
+    color: rgb(138, 157, 193);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    border: 2px solid rgb(118, 139, 179);
+}
+
+.project-tech-stack{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tech-stack-text{
+    font-size: 23px;
+    font-weight: 700;
 }

@@ -22,7 +22,8 @@
 .contact-icons{
     display: flex;
     width: 30%;
-    padding: 10px 0px;
+    padding: 15px 0px;
+    position: relative;
 }
 
 .contact-icons>i{
@@ -35,6 +36,9 @@
     color: #7990b9;
     font-size: 18px;
     font-weight: 500;
+    position: absolute;
+    bottom: 6px;
+    left: 110px;
 }
 
 /* #resume{

@@ -38,6 +38,7 @@
     background-color: #3a60a1;
     cursor: pointer;
     color: white;
+    transition: background-color 0.5s ease-in-out;
 }
 
 #resume-button-1{

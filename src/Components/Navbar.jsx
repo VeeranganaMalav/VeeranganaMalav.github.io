@@ -2,6 +2,16 @@ import React from 'react'
 import "../css/Navbar.css"
 
 const Navbar = () => {
+
+    const handleClick = () => {
+        window.open(
+            "https://drive.google.com/file/d/1pXXENn_m-X9xgEXNGgnFWM7DI7zPTi2N/view?usp=sharing",
+            "_blank",
+            "noopener",
+            "noreferer"
+        );
+    };
+
     return (
         <div id="nav-menu" className="nav">
             <p>
@@ -24,9 +34,12 @@ const Navbar = () => {
                     <a href="#contact" className="nav-link contact">Contact</a>
                 </li>
                 <li>
-                    <a href="https://drive.google.com/uc?id=1JzWIbxmlHDpX1GjwgXOFHbiIhixuemQk&export=download" target="_blank" rel="noreferrer" className="nav-link resume" id="resume-link-1" download>
-                        <button id="resume-button-1">Resume</button>
+                    <a href="./Veerangana-Malav-Resume.pdf" className="nav-link resume" id="resume-link-1" download>
+                        <button id="resume-button-1" onClick={handleClick}>Resume</button>
                     </a>
+                    {/* <a href="https://drive.google.com/uc?id=1JzWIbxmlHDpX1GjwgXOFHbiIhixuemQk&export=download" target="_blank" rel="noreferrer" className="nav-link resume" id="resume-link-1" download>
+                        <button id="resume-button-1">Resume</button>
+                    </a> */}
                 </li>
             </ul>
         </div>

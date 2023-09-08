@@ -11,7 +11,7 @@ const About = () => {
             <div className="intro-section">
                 <Fade left duration={2000}>
                     <div className="illustration">
-                        <img src={passport_photo} alt="illustartion" className="home-img" style={{borderRadius: "13px"}}/>
+                        <img src={passport_photo} alt="illustartion" className="home-img" style={{ borderRadius: "13px" }} />
                     </div>
                 </Fade>
                 <Fade right duration={2000}>
@@ -32,7 +32,7 @@ const About = () => {
                             </a>
                         </div>
                         <div className="button">
-                            <a href="https://drive.google.com/uc?id=1JzWIbxmlHDpX1GjwgXOFHbiIhixuemQk" id="resume-link-2" target="_blank" rel="noreferrer" download>
+                            <a href="./Veerangana-Malav-Resume.pdf" id="resume-link-2" target="_blank" rel="noreferrer" download>
                                 <button className="resume-button" id="resume-button-2">Resume</button>
                             </a>
                         </div>

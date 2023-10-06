@@ -1,13 +1,13 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
-#about>h1{
+#about>h1 {
     color: #7990b9;
     font-size: 50px;
 }
 
-.intro-section{
+.intro-section {
     /* border: 1px solid black; */
     display: flex;
     width: 90%;
@@ -16,7 +16,7 @@
     padding: 50px 0px 150px 0px;
 }
 
-.about-me{
+.about-me {
     /* padding: 50px 0px; */
     display: flex;
     flex-direction: column;
@@ -24,17 +24,17 @@
     line-height: 0.5em;
 }
 
-.about-me>h1{
+.about-me>h1 {
     font-size: 60px;
     text-align: left;
 }
 
-.name-text{
+.name-text {
     color: #3c547d;
     font-weight: 700;
 }
 
-.about-me>p{
+.about-me>p {
     /* color: rgb(158, 173, 201); */
     color: #7990b9;
     line-height: 1.5em;
@@ -43,22 +43,22 @@
     text-align: left;
 }
 
-.social-media{
+.social-media {
     display: flex;
     margin-top: 40px;
 }
 
-.social-icons{
+.social-icons {
     font-size: 45px;
     padding: 10px 25px;
 }
 
-.button{
+.button {
     margin: 40px 0px 30px 40px;
     text-align: left;
 }
 
-.resume-button{
+.resume-button {
     cursor: pointer;
     border-radius: 5px;
     background-color: #bfd1ec;
@@ -69,19 +69,183 @@
     color: white;
 }
 
-#resume-button-2:hover{
+#resume-button-2:hover {
     color: white;
     background-color: #3a60a1;
     transition: background-color 0.3s ease-in-out;
 }
 
-.illustration{
+.illustration {
     width: 30%;
 }
 
 
-.illustration>img{
+.illustration>img {
     width: 70%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 /* #87a6d3    ------> heading color */
+
+
+
+
+/* ------------------------------------- LARGE SCREEN ---------------------------------------- */
+@media only screen and (min-width: 769px) and (max-width: 1060px) {
+    #about>h1 {
+        font-size: 45px;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 65px;
+        padding: 0px;
+    }
+
+    .illustration{
+        width: 30%;
+        margin: auto;
+    }
+
+    .illustration>.home-img{
+        width: 90%;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        line-height: 0.5em;
+        padding: 80px 0px;
+    }
+
+    .about-me>h1{
+        font-size: 40px;
+    }
+
+    .about-me>p {
+        line-height: 1.7em;
+        font-size: 22px;
+    }
+
+    .social-icons{
+        font-size: 43px;
+        padding: 10px 25px;
+    }
+
+    .resume-button {
+        font-size: 18px;
+    }
+}
+
+
+
+/* ------------------------------------- TABLET SCREEN ---------------------------------------- */
+@media only screen and (min-width: 482px) and (max-width: 768px) {
+    #about>h1 {
+        font-size: 45px;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 65px;
+        padding: 0px;
+    }
+
+    .illustration{
+        width: 30%;
+        margin: auto;
+    }
+
+    .illustration>.home-img{
+        width: 100%;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        line-height: 0.5em;
+        padding: 80px 0px;
+    }
+
+    .about-me>h1{
+        font-size: 40px;
+    }
+
+    .about-me>p {
+        line-height: 1.7em;
+        font-size: 22px;
+    }
+
+    .social-icons{
+        font-size: 43px;
+        padding: 10px 25px;
+    }
+
+    .resume-button {
+        font-size: 18px;
+    }
+}
+
+
+/* --------------------------------------- MOBILE SCREEN ------------------------------------------- */
+@media only screen and (min-width: 370px) and (max-width: 481px) {
+    #about>h1 {
+        font-size: 30px;
+    }
+    
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        /* margin: 70px auto; */
+        padding: 0px;
+    }
+
+    .illustration{
+        width: 50%;
+        margin: auto;
+    }
+
+    .illustration>.home-img{
+        width: 100%;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        line-height: 0.5em;
+        padding: 50px 0px;
+    }
+
+    .about-me>h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .about-me>p {
+        font-size: 18px;
+        text-align: left;
+    }
+    
+    .social-icons{
+        font-size: 40px;
+        padding: 10px 25px;
+    }
+
+    .resume-button {
+        font-size: 16px;
+    }
+}

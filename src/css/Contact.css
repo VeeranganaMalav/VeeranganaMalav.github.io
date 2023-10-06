@@ -1,5 +1,6 @@
 #contact{
-    padding: 0px 100px;
+    width: 100%;
+    /* padding: 0px 100px; */
 }
 
 #contact>h1{
@@ -8,6 +9,7 @@
 }
 
 #contact>p{
+    padding: 0px 100px;
     color: #7990b9;
     text-align: left;
     font-size: 25px;
@@ -15,8 +17,9 @@
     line-height: 2em;
 }
 
-.contact-links{
+/* .contact-links{
     margin-left: 40px;
+    margin-left: 140px;
 }
 
 .contact-icons{
@@ -39,6 +42,41 @@
     position: absolute;
     bottom: 6px;
     left: 110px;
+} */
+
+
+
+
+
+
+/* -------------------------------- SECOND IMPLEMENTATION ------------------------------- */
+.contact-links{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-icons{
+    display: flex;
+    width: 35%;
+    padding: 12px 0px;
+}
+
+.contact-icons>i{
+    font-size: 40px;
+    padding: 0px 35px 0px 20px;
+    color: #3a60a1;
+}
+
+.fa-github{
+    font-size: 50px;
+}
+
+.contact-icons>p{
+    color: #7990b9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
 }
 
 /* #resume{
@@ -56,3 +94,136 @@
     font-weight: 500;
     color: white;
 } */
+
+
+
+
+
+/* ------------------------------------- LARGE SCREEN ---------------------------------------- */
+@media only screen and (min-width: 769px) and (max-width: 1060px) {
+    #contact>h1{
+        font-size: 40px;
+        padding: 40px 0px;
+    }
+
+    #contact>p{
+        padding: 0px 70px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 2em;
+    }
+
+    .contact-links{
+        margin-left: 100px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-icons{
+        display: flex;
+        width: 60%;
+        padding: 12px 0px;
+    }
+    
+    .contact-icons>i{
+        font-size: 35px;
+        padding: 0px 35px 0px 20px;
+        color: #3a60a1;
+    }
+    
+    .fa-github{
+        font-size: 50px;
+    }
+
+    .contact-icons>p{
+        bottom: 6px;
+        left: 100px;
+        font-size: 18px;
+        line-height: 0.3;
+    }
+}
+
+
+
+/* ------------------------------------- TABLET SCREEN ---------------------------------------- */
+@media only screen and (min-width: 482px) and (max-width: 768px) {
+    #contact>h1{
+        font-size: 40px;
+        padding: 40px 0px;
+    }
+
+    #contact>p{
+        padding: 0px 70px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 2em;
+    }
+
+    .contact-links{
+        margin-left: 100px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-icons{
+        display: flex;
+        width: 60%;
+        padding: 12px 0px;
+    }
+    
+    .contact-icons>i{
+        font-size: 35px;
+        padding: 0px 35px 0px 20px;
+        color: #3a60a1;
+    }
+    
+    .fa-github{
+        font-size: 50px;
+    }
+
+    .contact-icons>p{
+        bottom: 6px;
+        left: 100px;
+        font-size: 16px;
+        line-height: 0.3;
+    }
+}
+
+
+
+/* --------------------------------------- MOBILE SCREEN ------------------------------------------- */
+@media only screen and (min-width: 370px) and (max-width: 481px) {
+    #contact>h1{
+        font-size: 30px;
+        padding: 30px 0px;
+    }
+    
+    #contact>p{
+        padding: 0px 30px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 2em;
+    }
+
+    .contact-links{
+        margin-left: 40px;
+    }
+    
+    .contact-icons{
+        display: flex;
+        width: 75%;
+        padding: 12px 0px;
+    }
+    
+    .contact-icons>i{
+        font-size: 20px;
+        padding: 0px 20px 0px 10px;
+    }
+
+    .contact-icons>p{
+        font-size: 12px;
+        line-height: 0.3;
+    }
+}

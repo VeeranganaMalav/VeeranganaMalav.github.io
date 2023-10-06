@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../css/Navbar.css"
+import { BiMenu } from 'react-icons/bi'
+import Sidebar from './Sidebar'
 
 const Navbar = () => {
+
+    const [showSidebar, setShowSidebar] = useState(false);
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setShowSidebar(!showSidebar);
+        setIsMenuOpen(!isMenuOpen);
+    };
 
     const handleClick = () => {
         window.open(
@@ -17,7 +28,16 @@ const Navbar = () => {
             <p>
                 <a href="/" className="logo">Veerangana</a>
             </p>
-            <ul className="menu">
+
+            <div id="burger-icon" onClick={toggleMenu}>
+                <BiMenu />
+            </div>
+
+            {/* Render the sidebar component */}
+            {showSidebar && <Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} toggleMenu={toggleMenu} />}
+
+            <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
+                {/* <ul className="menu"> */}
                 <li>
                     <a href="#home" className="nav-link home">Home</a>
                 </li>

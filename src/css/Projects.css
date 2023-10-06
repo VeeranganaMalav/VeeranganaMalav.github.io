@@ -145,6 +145,14 @@ h2{
     right: 70px;
 }
 
+.project-title{
+    font-size: 24px;
+}
+
+.project-description{
+    font-size: 19px;
+}
+
 .project-live-links button{
     font-size: 18px;
     border: 2px solid rgb(186, 186, 205);
@@ -169,4 +177,148 @@ h2{
 .tech-stack-text{
     font-size: 23px;
     font-weight: 700;
+}
+
+
+
+/* ------------------------------------- LARGE SCREEN ---------------------------------------- */
+@media only screen and (min-width: 769px) and (max-width: 1060px) {
+    #projects>h1{
+        font-size: 40px;
+    }
+
+    .project-grid{
+        width: 90%;
+    }
+
+    .project-live-links{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+    }
+    
+    .project-live-links button{
+        padding: 10px 10px;
+        margin-inline: 8px;
+    }
+
+    .project-tech-stack{
+        font-size: 18px;
+    }
+    
+    .tech-stack-text{
+        font-size: 20px;
+    }
+}
+
+
+
+/* ------------------------------------- TABLET SCREEN ---------------------------------------- */
+@media only screen and (min-width: 482px) and (max-width: 768px) {
+    #projects>h1{
+        font-size: 40px;
+    }
+
+    .project-grid{
+        width: 90%;
+    }
+
+    .project-live-links{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+    }
+    
+    .project-live-links button{
+        padding: 10px 10px;
+        margin-inline: 8px;
+    }
+
+    .project-tech-stack{
+        font-size: 18px;
+    }
+    
+    .tech-stack-text{
+        font-size: 20px;
+    }
+}
+
+
+/* --------------------------------------- MOBILE SCREEN ------------------------------------------- */
+@media only screen and (min-width: 370px) and (max-width: 481px) {
+    #projects>h1{
+        font-size: 30px;
+    }
+
+    .project-grid{
+        width: 80%;
+    }
+
+    .project-card{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 30px 20px;
+    }
+    
+    .project-info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .project-img{
+        width: 100%;
+    }
+    
+    .project-img>img{
+        width: 100%;
+    }
+
+    .project-features{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        height: 200px;
+        /* border: 1px solid red; */
+    }
+    
+    .project-title{
+        font-size: 21px;
+    }
+    
+    .project-description{
+        font-size: 16px;
+    }
+    
+    .project-live-links{
+        /* border: 1px solid orange; */
+        display: block;
+        width: 220px;
+        position: absolute;
+        bottom: 0px;
+        left: 12px;
+    }
+    
+    .project-live-links button{
+        margin-inline: 8px;
+        font-size: 14px;
+    }
+    
+    .project-tech-stack{
+        font-size: 16px;
+    }
+    
+    .tech-stack-text{
+        font-size: 18px;
+    }
 }

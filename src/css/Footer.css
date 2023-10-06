@@ -2,10 +2,47 @@
     background-color: #3c547d;
     padding: 20px 0px;
     margin-top: 30px;
+    width: 100%;
 }
 
 .footer-text{
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-weight: 500;
+}
+
+
+/* ------------------------------------- LARGE SCREEN ---------------------------------------- */
+@media only screen and (min-width: 769px) and (max-width: 1060px) {
+    #footer{
+        padding: 15px 0px;
+    }
+    
+    .footer-text{
+        font-size: 19px;
+    }
+}
+
+
+/* ------------------------------------- TABLET SCREEN ---------------------------------------- */
+@media only screen and (min-width: 482px) and (max-width: 768px) {
+    #footer{
+        padding: 15px 0px;
+    }
+    
+    .footer-text{
+        font-size: 19px;
+    }
+}
+
+
+/* --------------------------------------- MOBILE SCREEN ------------------------------------------- */
+@media only screen and (min-width: 370px) and (max-width: 481px) {
+    #footer{
+        padding: 15px 0px;
+    }
+    
+    .footer-text{
+        font-size: 16px;
+    }
 }

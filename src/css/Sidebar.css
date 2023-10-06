@@ -1,0 +1,98 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    /* left: -300px; */
+    right: -250px;
+    /* Start off-screen */
+    width: 250px;
+    height: 100vh;
+    background-color: whitesmoke;
+    transition: left 1s ease-in-out;
+}
+
+.sidebar.show {
+    /* left: 0; */
+    right: 0px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.sidebar li {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #3a60a1;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.burger-icon {
+    display: block;
+}
+
+.burger-icon>p{
+    font-size: 23px;
+    color: #3a60a1;
+    font-weight: 800;
+}
+
+
+
+/* ------------------------------------- LARGE SCREEN ---------------------------------------- */
+@media only screen and (min-width: 769px) and (max-width: 1060px) {
+    .sidebar {
+        right: -250px;
+        width: 450px;
+    }
+    
+    .sidebar.show {
+        right: 0px;
+    }
+    
+    .sidebar li {
+        padding: 26px 0px;
+    }
+    
+    .sidebar a {
+        font-size: 20px;
+    }
+
+    .burger-icon>p{
+        font-size: 28px;
+    }
+    
+}
+
+
+
+/* ------------------------------------- TABLET SCREEN ---------------------------------------- */
+@media only screen and (min-width: 482px) and (max-width: 768px) {
+    .sidebar {
+        right: -250px;
+        width: 350px;
+    }
+    
+    .sidebar.show {
+        right: 0px;
+    }
+    
+    .sidebar li {
+        padding: 26px 0px;
+    }
+    
+    .sidebar a {
+        font-size: 20px;
+    }
+
+    .burger-icon>p{
+        font-size: 28px;
+    }
+    
+}

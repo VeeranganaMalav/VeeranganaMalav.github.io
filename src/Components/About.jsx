@@ -22,13 +22,13 @@ const About = () => {
                         <p>I'm <span className="name-text" id="user-detail-name">Veerangana Malav</span>, an Aspiring Full Stack Web Developer proficient in React, HTML and CSS, and an Enthusiastic Learner. I have always found it fascinating to turn my problem-solving skills and creative ideas into real-world applications.</p>
                         <div className="social-media">
                             <a href="https://github.com/VeeranganaMalav" className="social-icons">
-                                <i class="fa-brands fa-github" style={{ color: "#3a60a1" }}></i>
+                                <i className="fa-brands fa-github" style={{ color: "#3a60a1" }}></i>
                             </a>
                             <a href="https://www.linkedin.com/in/veeranganamalav14/" className="social-icons">
-                                <i class="fa-brands fa-linkedin-in" style={{ color: "#3a60a1" }}></i>
+                                <i className="fa-brands fa-linkedin-in" style={{ color: "#3a60a1" }}></i>
                             </a>
                             <a href="mailto:veeranganamalav01@gmail.com" className="social-icons">
-                                <i class="fa-solid fa-envelope" style={{ color: "#3a60a1" }}></i>
+                                <i className="fa-solid fa-envelope" style={{ color: "#3a60a1" }}></i>
                             </a>
                         </div>
                         <div className="button">

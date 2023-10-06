@@ -10,21 +10,41 @@ const Contact = () => {
         <p>Feel free to get in touch with me for any inquiries, collaboration opportunities, or just to say hello! I'm always excited to connect with like-minded individuals, businesses, and organizations who are passionate about technology and innovation.</p>
       </Fade>
       <Fade left cascade duration={1500}>
-        <div className="contact-links">
+        {/* <div className="contact-links">
           <a href="https://github.com/VeeranganaMalav" className="contact-icons" id="contact-github">
-            <i class="fa-brands fa-github" style={{fontSize:"50px"}}></i>
+            <i className="fa-brands fa-github" style={{fontSize:"50px"}}></i>
             <p style={{bottom: "8px"}}>github.com/VeeranganaMalav</p>
           </a>
           <a href="https://www.linkedin.com/in/veeranganamalav14/" className="contact-icons" id="contact-linkedin">
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
             <p>linkedin.com/in/veeranganamalav14</p>
           </a>
           <a href="mailto:veeranganamalav01@gmail.com" className="contact-icons" id="contact-email">
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
             <p>veeranganamalav01@gmail.com</p>
           </a>
           <a href="#contact" className="contact-icons" id="contact-phone">
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-solid fa-phone"></i>
+            <p>+91 8209714413</p>
+          </a>
+        </div> */}
+
+        {/* -------------------------------- SECOND IMPLEMENTATION ------------------------------- */}
+        <div className="contact-links">
+          <a href="https://github.com/VeeranganaMalav" className="contact-icons" id="contact-github">
+            <i className="fa-brands fa-github"></i>
+            <p>github.com/VeeranganaMalav</p>
+          </a>
+          <a href="https://www.linkedin.com/in/veeranganamalav14/" className="contact-icons" id="contact-linkedin">
+            <i className="fa-brands fa-linkedin-in"></i>
+            <p>linkedin.com/in/veeranganamalav14</p>
+          </a>
+          <a href="mailto:veeranganamalav01@gmail.com" className="contact-icons" id="contact-email">
+            <i className="fa-solid fa-envelope"></i>
+            <p>veeranganamalav01@gmail.com</p>
+          </a>
+          <a href="#contact" className="contact-icons" id="contact-phone">
+            <i className="fa-solid fa-phone"></i>
             <p>+91 8209714413</p>
           </a>
         </div>

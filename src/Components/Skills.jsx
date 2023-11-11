@@ -88,7 +88,7 @@ const Skills = () => {
         </Fade>
         <Fade cascade duration={4000}>
         <ul>
-          <li>Develop interactive frontend for web application using ReactJS and Chakra UI</li>
+          <li>Develop interactive frontend for web application using ReactJS and other front-end libraries</li>
           <li>Creating backend applications using NodeJS and Express framework</li>
           <li>Build responsive websites using HMTL and CSS</li>
         </ul>

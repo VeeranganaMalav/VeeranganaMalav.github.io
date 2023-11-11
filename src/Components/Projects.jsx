@@ -3,9 +3,12 @@ import Zoom from 'react-reveal/Zoom'
 import Slide from 'react-reveal/Slide';
 import "../css/Projects.css"
 import fashion_flare from "../images/fashion_flare.png"
+import fashion_flare2 from "../images/fashion_flare2.png"
 import w_mart from "../images/w_mart.png"
 import notes_app from "../images/notes_app.png"
 import brainsania from "../images/brainsania.png"
+import recipe_snap from "../images/recipe_snap.png"
+import { Fade } from 'react-reveal';
 
 // {------------------------------- SECOND IMPLEMENTATION --------------------------------------------}
 const Projects = () => {
@@ -14,7 +17,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="project-grid">
         {/* ---------------------------- FIRST PROJECT -------------------------------- */}
-        <Slide left duration={1500}>
+        <Fade big duration={3000}>
           <div className="project-card">
             <div className="project-info">
               <div className="project-img">
@@ -38,19 +41,83 @@ const Projects = () => {
               </div>
             </div>
             <div className="project-techs">
-              <p className="project-tech-stack"><span className="tech-stack-text">Tech Stack: &nbsp;&nbsp;&nbsp;</span>HTML | CSS | ReactJS | ChakraUI</p>
+              <p className="project-tech-stack"><span className="tech-stack-text">Tech Stack: &nbsp;&nbsp;&nbsp;</span>ReactJS | ChakraUI | HTML | CSS</p>
             </div>
           </div>
-        </Slide>
+        </Fade>
 
 
 
         {/* ---------------------------- SECOND PROJECT -------------------------------- */}
-        <Slide right duration={1500}>
+        <Fade big duration={3000}>
           <div className="project-card">
             <div className="project-info">
               <div className="project-img">
-                <img src={w_mart} alt="aeropostale-clone" style={{ height: "340px" }} />
+                <img src={recipe_snap} alt="pickup-limes-clone" style={{ height: "340px" }} />
+              </div>
+              <div className="project-features">
+                <h2 className="project-title">Recipe Snap</h2>
+                <p className="project-description">A user-friendly recipe website that provides a platform to food enthusiasts to explore and share a diverse range of mouthwatering recipes.</p>
+                <div className="project-live-links">
+                  <a href="https://github.com/VeeranganaMalav/RecipeSnap" target="_blank" rel="noreferrer" className="project-github-link">
+                    <button className="github-repo-btn">
+                      Github Repo
+                    </button>
+                  </a>
+                  <a href="https://recipefit.vercel.app/" target="_blank" rel="noreferrer" className="project-deployed-link">
+                    <button className="deployed-site-btn">
+                      Live Site
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project-techs">
+              <p className="project-tech-stack"><span className="tech-stack-text">Tech Stack: &nbsp;&nbsp;&nbsp;</span>ReactJS | ExpressJS | MongoDB | ChakraUI</p>
+            </div>
+          </div>
+        </Fade>
+
+
+
+        {/* ---------------------------- THIRD PROJECT -------------------------------- */}
+        <Fade big duration={3000}>
+          <div className="project-card">
+            <div className="project-info">
+              <div className="project-img">
+                <img src={fashion_flare} alt="aeropostale-clone" style={{ height: "340px" }} />
+              </div>
+              <div className="project-features">
+                <h2 className="project-title">Fashion Flare</h2>
+                <p className="project-description">An e-commerce website that sells fashion products for men and women.</p>
+                <div className="project-live-links">
+                  <a href="https://github.com/VeeranganaMalav/Fashion-Flare" target="_blank" rel="noreferrer" className="project-github-link">
+                    <button className="github-repo-btn">
+                      Github Repo
+                    </button>
+                  </a>
+                  <a href="https://fashion-flare.netlify.app/" target="_blank" rel="noreferrer" className="project-deployed-link">
+                    <button className="deployed-site-btn">
+                      Live Site
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project-techs">
+              <p className="project-tech-stack"><span className="tech-stack-text">Tech Stack: &nbsp;&nbsp;&nbsp;</span>HTML | CSS | JS</p>
+            </div>
+          </div>
+        </Fade>
+
+
+
+        {/* ---------------------------- FOURTH PROJECT -------------------------------- */}
+        <Fade big duration={3000}>
+          <div className="project-card">
+            <div className="project-info">
+              <div className="project-img">
+                <img src={w_mart} alt="reliance-clone" style={{ height: "340px" }} />
               </div>
               <div className="project-features">
                 <h2 className="project-title">W Mart</h2>
@@ -73,44 +140,11 @@ const Projects = () => {
               <p className="project-tech-stack"><span className="tech-stack-text">Tech Stack: &nbsp;&nbsp;&nbsp;</span>HTML | CSS | JS</p>
             </div>
           </div>
-        </Slide>
+        </Fade>
 
 
 
-        {/* ---------------------------- THIRD PROJECT -------------------------------- */}
-        <Slide left duration={1500}>
-          <div className="project-card">
-            <div className="project-info">
-              <div className="project-img">
-                <img src={fashion_flare} alt="reliance-clone" style={{ height: "340px" }} />
-              </div>
-              <div className="project-features">
-                <h2 className="project-title">Fashion Flare</h2>
-                <p className="project-description">An e-commerce website that sells fashion products for men and women.</p>
-                <div className="project-live-links">
-                  <a href="https://github.com/Sujalogy/humble-offer-6148" target="_blank" rel="noreferrer" className="project-github-link">
-                    <button className="github-repo-btn">
-                      Github Repo
-                    </button>
-                  </a>
-                  <a href="https://fashion-flare.netlify.app/" target="_blank" rel="noreferrer" className="project-deployed-link">
-                    <button className="deployed-site-btn">
-                      Live Site
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="project-techs">
-              <p className="project-tech-stack"><span className="tech-stack-text">Tech Stack: &nbsp;&nbsp;&nbsp;</span>HTML | CSS | JS</p>
-            </div>
-          </div>
-        </Slide>
-
-
-
-        {/* ---------------------------- FOURTH PROJECT -------------------------------- */}
-        <Slide right duration={1500}>
+        {/* <Slide right duration={1500}>
           <div className="project-card">
             <div className="project-info">
               <div className="project-img">
@@ -137,7 +171,7 @@ const Projects = () => {
               <p className="project-tech-stack"><span className="tech-stack-text">Tech Stack: &nbsp;&nbsp;&nbsp;</span>HTML | CSS | JS</p>
             </div>
           </div>
-        </Slide>
+        </Slide> */}
 
       </div>
     </div>
